@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Twitter Bootstrap and SASS
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap'
 gem 'autoprefixer-rails'
 
 

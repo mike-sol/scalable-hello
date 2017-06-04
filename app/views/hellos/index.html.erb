@@ -2,7 +2,7 @@
 
 <h1>Hellos</h1>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th>Title</th>
@@ -16,9 +16,9 @@
       <tr>
         <td><%= hello.title %></td>
         <td><%= hello.notes %></td>
-        <td><%= link_to 'Show', hello %></td>
-        <td><%= link_to 'Edit', edit_hello_path(hello) %></td>
-        <td><%= link_to 'Destroy', hello, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', hello, class: 'btn btn-primary btn-xs' %></td>
+        <td><%= link_to 'Edit', edit_hello_path(hello), class: 'btn btn-info btn-xs' %></td>
+        <td><%= link_to 'Destroy', hello, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger btn-xs' %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Hello', new_hello_path %>
+<%= link_to 'New Hello', new_hello_path, class: 'btn btn-success' %>
