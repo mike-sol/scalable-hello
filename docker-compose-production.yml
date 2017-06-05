@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    build: .
+    image: mikesol/scalablehello_web:v1
     command: bundle exec rails s -p 3000 -b '0.0.0.0'
     volumes:
       - .:/myapp
