@@ -6,5 +6,4 @@ ADD Gemfile /myapp/Gemfile
 ADD Gemfile.lock /myapp/Gemfile.lock
 RUN bundle install
 ADD . /myapp
-RUN /bin/bash -c 'if [ "$RAILS_ENV" == "production" ]; then export RAILS_DATABASE_PASSWORD=$(cat /run/secrets/rails_database_password); fi'
 
