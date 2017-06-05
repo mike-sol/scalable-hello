@@ -11,7 +11,13 @@
         "-b", 
         "0.0.0.0"
       ], 
-      "Image": "mikesol/scalablehello_web@sha256:7ad145fbce1190ea062dcd41a52600be45b0c004a3bd35c9cbb7f29b380cf224", 
+      "Env": [
+        "RAILS_DATABASE_NAME=rails", 
+        "RAILS_DATABASE_HOST=rails.cofykfiadir7.us-west-2.rds.amazonaws.com", 
+        "RAILS_ENV=production", 
+        "RAILS_DATABASE_USERNAME=rails"
+      ], 
+      "Image": "mikesol/scalablehello_web@sha256:681bf3fc8966607233180a89efa396acb89ffc2ea654ae3e8abd7297511263a7", 
       "Networks": [
         "default"
       ], 

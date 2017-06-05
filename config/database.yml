@@ -52,4 +52,4 @@ production:
   host: <%= ENV['RAILS_DATABASE_HOST'] %>
   database: <%= ENV['RAILS_DATABASE_NAME'] %>
   username: <%= ENV['RAILS_DATABASE_USERNAME'] %>
-  password: <%= ENV['RAILS_DATABASE_PASSWORD'] %>
+  password: <%= File.open("/run/secrets/rails_database_password", "r") { |f| f.read } %>
