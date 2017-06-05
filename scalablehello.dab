@@ -17,7 +17,7 @@
         "RAILS_ENV=production", 
         "RAILS_DATABASE_USERNAME=rails"
       ], 
-      "Image": "mikesol/scalablehello_web@sha256:681bf3fc8966607233180a89efa396acb89ffc2ea654ae3e8abd7297511263a7", 
+      "Image": "mikesol/scalablehello_web@sha256:69e8f3f306935aab186eac860efbf021565f80ed64f955f2f895a1fd2e08bdae", 
       "Networks": [
         "default"
       ], 
