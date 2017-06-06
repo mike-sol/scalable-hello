@@ -1,24 +1,13 @@
-# README
+# Scalable Hello World
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple scalable Hello World application for demonstration purposes.
 
-Things you may want to cover:
+Features:
 
-* Ruby version
+* Docker Compose and Docker Swarm
 
-* System dependencies
+* Ruby on Rails with Puma
 
-* Configuration
+* MariaDB
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+See README.docx for details.
