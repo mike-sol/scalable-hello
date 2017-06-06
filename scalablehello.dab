@@ -21,7 +21,7 @@
         "RAILS_SERVE_STATIC_FILES=true", 
         "RAILS_DATABASE_HOST=rails2.cofykfiadir7.us-west-2.rds.amazonaws.com"
       ], 
-      "Image": "mikesol/scalablehello_web@sha256:1a6675a2d72a4ab82c075296149736d4ccde7ed26ae3dc334c5ad53c31bc8aaa", 
+      "Image": "mikesol/scalablehello_web@sha256:3492417d02377ab0f37b2d61b9bbf203bc5854ef0c08345e89de883fae70337c", 
       "Networks": [
         "default"
       ], 
